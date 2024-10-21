@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-color: #aeebfc;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .App-logo {
@@ -7,6 +11,37 @@
   pointer-events: none;
 }
 
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+}
+.input-city{
+  padding :0.5rem;
+  
+}
+.search-btn{
+  background-color: rgb(121, 197, 121);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+}
+.weather-cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.weather-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

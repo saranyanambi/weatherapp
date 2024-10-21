@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <form className='form' onSubmit={handlesubmit}>
-        <input className='input-city' type='text' placeholder='Enter the City' value={city} onChange={(e)=>setCity(e.target.value)}/>
+        <input className='input-city' type='text' placeholder='Enter city name' value={city} onChange={(e)=>setCity(e.target.value)}/>
         <button type='submit' className='search-btn'>Search</button>
         </form>
         {loading && <p>Loading data...</p>} 

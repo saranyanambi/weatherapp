@@ -44,7 +44,7 @@ function App() {
 
           <div className='weather-card'>
               <h6>Humidity</h6>
-              <p>{citySelect.current.humidity}</p>
+              <p>{citySelect.current.humidity}%</p>
           </div>
 
           <div className='weather-card'>
